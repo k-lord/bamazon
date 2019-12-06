@@ -32,11 +32,11 @@ function storeInit() {
             name: "customerInit",
             type: "list",
             message: "What would you like to do today?",
-            choices: ["SHOP", "EXIT"]
+            choices: ["SHOP ALL", "EXIT"]
         })
         .then(function (answer) {
             // based on their answer, either call the bid or the post functions
-            if (answer.customerInit === "SHOP") {
+            if (answer.customerInit === "SHOP ALL") {
                 customerShop();
             } else {
                 console.log(colors.rainbow("\nThanks for shopping at Bamazon. Visit us again soon!\n"));
@@ -46,10 +46,7 @@ function storeInit() {
 };
 
 function customerShop() {
-    //console.log("You're shopping!");
-    //connection.end();
-
-    connection.query("SELECT * FROM products", function (err, results) {
+    connection.query("SELECT id, product_name, price, stock_quantity FROM products", function (err, results) {
         if (err) throw err;
         console.log("\n");
         console.table(results);
@@ -107,8 +104,8 @@ function customerShop() {
                     storeInit();
                 }
             })
-
     });
+};
 
 
-}
+
