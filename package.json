@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/k-lord/bamazon#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "console.table": "^0.10.0",
     "figlet": "^1.2.4",
     "inquirer": "^7.0.0",
