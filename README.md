@@ -30,7 +30,7 @@ The available actions available to choose from as a Manager are as follows:
 Below are screenshare `.gif` files showing the working app.
 
 #### Customer Making a Purchase:
-![](./customerPurchase.gif)
+![](../customerPurchase.gif)
 
 #### Customer Exiting the Application:
 ![](./customerExit.gif)
