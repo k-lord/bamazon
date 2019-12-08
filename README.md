@@ -30,25 +30,25 @@ The available actions available to choose from as a Manager are as follows:
 Below are screenshare `.gif` files showing the working app.
 
 #### Customer Making a Purchase:
-![](../customerPurchase.gif)
+![](assets/images/customerPurchase.gif)
 
 #### Customer Exiting the Application:
-![](./customerExit.gif)
+![](assets/images/customerExit.gif)
 
 #### Customer Attempting to Purchase an Item Out of Stock:
-![](./customerLowInventory.gif)
+![](assets/images/customerLowInventory.gif)
 
 #### Manager Viewing Products Available and Checking for Low Inventory:
-![](./managerViewAndLowInv.gif)
+![](assets/images/managerViewAndLowInv.gif)
 
 #### Manager Adding Inventory:
-![](./managerAddInv.gif)
+![](assets/images/managerAddInv.gif)
 
 #### Manager Adding New Product:
-![](./managerAddProduct.gif)
+![](assets/images/managerAddProduct.gif)
 
 #### Manager Exiting the Application:
-![](./managerExit.gif)
+![](assets/images/managerExit.gif)
 
 ### How to download Bamazon?
 You can clone the Bamazon Git Repository at [GitHub](https://github.com/k-lord/bamazon)
