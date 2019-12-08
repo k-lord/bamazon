@@ -18,13 +18,22 @@ The available actions available to choose from as a Customer are as follows:
 
 #### Bamazon Manager Reference Guide
 The available actions available to choose from as a Manager are as follows:
-* ``
-* ``
-* ``
-* ``
+* `View Products for Sale`
+    * If a manager selects this, the app will display the products table in the console of all of the items available to purchase in the bamazon Database.
+* `View Low Inventory`
+    * If a manager selects this, the app will display the proudcts table in the console of any items that have on hand inventory of 10 units or less.
+* `Add to Inventory`
+    * Selecting this option allows the manager to update the on hand quantities in the products table in the bamazon Database. First the manager will select the ID # for the product they are updating, and then they will submit the quantity of units being added to that item's current on-hand inventory. Then the database is updated with this information and the products table is again displayed in the console with the updated information.
+* `Add New Product`
+    * Selecting this option allows the manager to add a new product to the products table in the bamazon Database. The manager is then led through several prompts to get the following information:
+        * product_name
+        * department_name
+        * price
+        * stock_quantity
+    After this information is submitted by the manager, this new product is added to the bamazon Databass and the products table is again displayed in the console with the updated information.
 
-
-            
+* `Exit`
+     * If you select this option, you exit out of the application and will receive a message that the manager has logged out.        
         
 ### GIF Demonstration
 Below are screenshare `.gif` files showing the working app.
